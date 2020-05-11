@@ -1,0 +1,10 @@
+polari
+discord
+Foliate
+
+Docker
+sudo dnf install grubby
+sudo grubby --update-kernel=ALL --args="systemd.unified_cgroup_hierarchy=0"
+sudo dnf install moby-engine
+sudo systemctl enable --now docker
+sudo usermod -aG docker $(whoami)

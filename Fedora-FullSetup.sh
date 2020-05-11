@@ -15,7 +15,7 @@ echo "CHECKING DNF"
 dnf check-update
 
 echo "INSTALLING APPS"
-sudo dnf install -y chromium thunderbird code vlc gimp gnome-tweak-tool handbrake-gui ntfs-3g fuse-exfat f2*-backgrounds-gnome f2*-backgrounds-extras-gnome f3*-backgrounds-gnome f3*-backgrounds-extras-gnome python3-tools nodejs nano
+sudo dnf install -y chromium thunderbird code vlc gimp gnome-tweak-tool handbrake-gui ntfs-3g fuse-exfat f2*-backgrounds-gnome f2*-backgrounds-extras-gnome f3*-backgrounds-gnome f3*-backgrounds-extras-gnome python3-tools nodejs nano polari discord foliate
 
 echo "INSTALLING APACHE SEVER"
 dnf install httpd -y
